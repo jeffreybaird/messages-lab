@@ -41,15 +41,16 @@
 * When you do, you should `{key: 'value'}` printed in the debugger.
 * You access this is the same way that you do when using a form `params[:key] #=> 'value'`
 * Now, using Typhoeus gem, post the sender,  receiver and message variables to the `post '/'`
----------------------------------------------------------------------------------------
+
+******************************************************************************
  NOTE: When doing this, keep in mind what the params hash looked like when your input came from a form, this is no different except you are directly passing the hash to the url from the ruby script.
----------------------------------------------------------------------------------------
+******************************************************************************
 
 * Modify the `post '/'` route to create a message based on user input from the post_message.rb script
 
----------------------------------------------------------------------------------------
+******************************************************************************
  HINT: Thanks to active record magic, you don't have to assign them all individually. Take a look at the [create method](http://apidock.com/rails/ActiveRecord/Base/create/class/)
----------------------------------------------------------------------------------------
+******************************************************************************
 
 * Modify the `get '/reset'` route to delete all messages in the database.
 * At this point, in another terminal tab you should be able to run the post_message.rb script and it should successfully post to the server.
