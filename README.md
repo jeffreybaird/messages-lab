@@ -37,7 +37,7 @@
 
 ### Posting a Params hash from a ruby script
 
-* first try posting a hash to a url `Typhoeus.post(uri, {key: 'value'})` and put the debugger into your post route. Then, in the console print out "params." You can do this in your post_message.rb script like this:
+* first try posting a hash to a url `Typhoeus.post(uri, :body => {:key => 'value'})` and put the debugger into your post route. Then, in the console print out "params." You can do this in your post_message.rb script like this:
 
 ````ruby
   uri = "127.0.0.1:9393/"
