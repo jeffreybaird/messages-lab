@@ -46,7 +46,7 @@
 
 * Modify the `post '/'` route to create a message based on user input from the post_message.rb script
 
--- HINT: Thanks to active record magic, you don't have to assign them all individually. Take a look at the [create method]('http://apidock.com/rails/ActiveRecord/Base/create/class') --
+-- HINT: Thanks to active record magic, you don't have to assign them all individually. Take a look at the [create method](http://apidock.com/rails/ActiveRecord/Base/create/class/) --
 
 * Modify the `get '/reset'` route to delete all messages in the database.
 * At this point, in another terminal tab you should be able to run the post_message.rb script and it should successfully post to the server.
