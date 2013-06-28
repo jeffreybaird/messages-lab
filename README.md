@@ -34,10 +34,10 @@
 * In the above example '127.0.0.1:9393' is your uri
 * Using Typhoeus gem, post the sender,  receiver and message variables to the `post '/'` route
 * Modify the `get '/reset'` route to delete all messages in the database.
-*At this point, in another terminal tab you should be able to run the post_message.rb script and it should successfully post to the server.
-*You will know it works by going into the 'tux' terminal and typing Message.all. You should see the message that you sent.
-*Now, modify the messages view to display all of the messages in the database.
-*Your resulting should look something like this:
+* At this point, in another terminal tab you should be able to run the post_message.rb script and it should successfully post to the server.
+* You will know it works by going into the 'tux' terminal and typing Message.all. You should see the message that you sent.
+* Now, modify the messages view to display all of the messages in the database.
+* Your resulting should look something like this:
 
 
 ![Imgur](http://i.imgur.com/Aao1Vul.png)
