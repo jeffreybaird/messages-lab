@@ -43,7 +43,7 @@
   uri = "127.0.0.1:9393/"
   Typhoeus.post(uri, {key: 'value'})
 `````
-* When you do, you should `{key: 'value'}` printed in the debugger.
+* When you do, you should `{key => 'value'}` printed in the debugger.
 * You access this is the same way that you do when using a form `params[:key] #=> 'value'`
 * Now, using Typhoeus gem, post the sender,  receiver and message variables to the `post '/'`
 
