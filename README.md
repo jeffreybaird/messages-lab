@@ -37,7 +37,7 @@
 * At this point, in another terminal tab you should be able to run the post_message.rb script and it should successfully post to the server.
 * You will know it works by going into the 'tux' terminal and typing Message.all. You should see the message that you sent.
 * Now, modify the messages view to display all of the messages in the database.
-* Your resulting should look something like this:
+* Your resulting view should look something like this:
 
 
 ![Imgur](http://i.imgur.com/Aao1Vul.png)
