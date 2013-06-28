@@ -16,7 +16,7 @@ message = gets.chomp
 puts ""
 print "Sending message..."
 
-uri = "" #set to whatever server is running your sinatra
+uri = "127.0.0.1:9393/" #set to whatever server is running your sinatra
 
 # TODO: Post the message to the server
 
